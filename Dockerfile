@@ -1,4 +1,4 @@
-FROM centos:centos7.2.1511
+FROM centos:centos7
 ADD build /buildbox
 RUN bash /buildbox/install-devtools.sh
 RUN bash /buildbox/build-openssl.sh
